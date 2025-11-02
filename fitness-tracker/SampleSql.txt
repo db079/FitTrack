@@ -1,0 +1,13 @@
+
+INSERT INTO USER (id, username, password_hash, age, gender, height_cm, role) VALUES
+(1, 'admin@fit.com', 'demo', 45, 'MALE', 180.0, 'ADMIN');
+
+INSERT INTO USER (id, username, password_hash, age, gender, height_cm, role) VALUES
+(2, 'user1@fit.com', 'demo', 30, 'FEMALE', 165.5, 'USER');
+
+INSERT INTO USER (id, username, password_hash, age, gender, height_cm, role) VALUES
+(3, 'user2@fit.com', 'demo', 25, 'MALE', 175.0, 'USER');
+
+-- Add initial weight for calorie calculation testing (2 is FEMALE user)
+INSERT INTO METRIC_ENTRY (id, user_id, metric_name, value, date) VALUES
+(1, 2, 'WEIGHT', 70.5, CURRENT_DATE());
