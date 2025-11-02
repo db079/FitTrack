@@ -14,6 +14,10 @@ A full-stack **Fitness Tracker** web application built using:
 
 This app allows users to register, set fitness goals, log exercises, and manage roles (User/Admin).
 
+
+### Demo Video
+[Watch Project Demo](https://youtu.be/Ko8snavqCsQ)
+
 ---
 
 ## 📁 Project Structure
@@ -136,19 +140,15 @@ Now the user with ID `1` (`admin@gmail.com`) is an **Admin**.
 
 ---
 
-## 🧠 Admin Features
-- Add/manage exercises  
-- Manage users  
-- View and edit goals  
-- Track overall progress  
-
----
-
-## 🏃‍♂️ User Features
-- Register and log in securely  
-- Set personal fitness goals  
-- Log exercises and view progress  
-- Update personal details  
+## 🚀 Application Features
+- Secure user registration and login using **Spring Security** and **JWT authentication**  
+- Passwords are protected using **BCrypt hashing**  
+- Role-based access control (**Admin** and **User**)  
+- Admin can add and manage exercises through **REST APIs**  
+- Users can set and track personal fitness goals  
+- View overall fitness progress and activity history  
+- Update personal details with real-time frontend validation  
+- Built with **Spring Boot**, **React.js**, and **MySQL** for full-stack integration  
 
 ---
 
